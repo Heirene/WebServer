@@ -12,8 +12,9 @@ models:样例数据模型
 routes:定义路由字典和路由函数
 template：样例页面
 data:样例数据存储，因为没有数据库，就是简单的把数据存到文件，后期可以把数据迁移到mogodb等数据库
-static：图片等静态资源
+static：图片等静态资源并且Todo.png是浏览器访问样例
 log.gua.txt: 日志文件
 utils.py: 一些工具函数， 日志，读取模板文件，跳转url, http报文的组织
+
 
 """
